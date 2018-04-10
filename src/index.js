@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import TodoList from "./TodoList";
+import TodoList from "./components/TodoList";
+import TodoApp from "./components/TodoApp";
 
-ReactDOM.render(<TodoList />, document.getElementById('root'));
+ReactDOM.render(<TodoApp />, document.getElementById('root'));
 
 
 // var destination = document.querySelector("#container");
